@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+
+}
+
+.App {
+    background-color: #009be5;
+    padding: 15px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.Main h1 {
+    color: black;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    margin: 15px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+#cpf {
+    margin: 5px 0 5px 0;
+}
+
+#secureImg {
+    align-self: center;
+}
+
+#button {
+    background: #0c9400;
+    height: 35px;
+    font-size: larger;
+    font-weight: 545;
+    border-radius: 10px;
+    color: white;
+}
+
+.passos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Beneficios {
+    display: flex;
+    flex-direction: column;
+}
+
+.bnfImgs {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.bnfImgs div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bnfImgs img {
+    max-width: fit-content;
+    margin: 20px;
+}
+
+.bnfImgs label {
+    font-size: x-large;
+    padding: 10px;
+    text-align: center;
+}
+
+.leisImgs {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Leis {
+    background-color: lightgrey;
+}
+
+.leisImgs img {
+    width: 200px;
+}
+
+.leisImgs div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leisImgs label {
+    font-size: x-large;
+    padding: 10px;
+    text-align: center;
+}
+
+ol li {
+    margin: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+@media screen and (max-width:500px) {
+    .passos {
+        flex-direction: column;
+    }
+
+    .passos img {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Helvetica;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .site-header { 
+    border-bottom: 1px solid #ccc;
+    padding: .5em 1em;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .site-identity h1 {
+    font-size: 1.5em;
+    margin: .6em 0;
+    display: inline-block;
+  }
+  
+  
+  .site-navigation ul, 
+  .site-navigation li {
+    margin: 0; 
+    padding: 0;
+  }
+  
+  .site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+  }
