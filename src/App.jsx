@@ -34,7 +34,7 @@ function conc(Event) {
   } else {
 
     let cpfCnpj = document.getElementById('cpf')
-    let href = "https://wa.me/5511941259048?text=Desejo+Consultar+Minhas+Ofertas+Cpf/Cnpj=+"
+    let href = "https://wa.me/5511941259048?text=Ola+Desejo+Consultar+Minhas+Ofertas+Cpf/Cnpj=+"
 
     cpf.push(href + cpfCnpj.value)
     window.location.href = cpf
