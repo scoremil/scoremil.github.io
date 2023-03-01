@@ -25,7 +25,7 @@ function conc(Event) {
 
   if (document.getElementById('cpf').value.length < 11 ) {
 
-    alert('Digite Seu Cpf ou Cnpj')
+    alert('Digite Seu Cpf ou Cnpj ')
 
   }else if (document.getElementById('cpf').value.length > 14) {
 
